@@ -4,7 +4,7 @@ Parse.initialize(
 );
 Parse.serverURL = 'https://pg-app-s4xeiqcvd9vyl5lycfvuzz49fbtelr.scalabl.cloud/1/';
 
-const URL = "https://teachablemachine.withgoogle.com/models/sFanVa7xN//";
+const URL = "https://teachablemachine.withgoogle.com/models/sFanVa7xN/";
 
 let model, webcam, newlabel, canvas, labelContainer, maxPredictions, camera_on = false, image_upload = false;
 
