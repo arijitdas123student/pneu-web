@@ -74,7 +74,7 @@ async function predict(input) {
         }
     }
 
-    if (bestClass == "bacteria" || bestClass == "viral" || bestClass == "normal") {
+    if (bestClass == "Bacterial Pneumonia" || bestClass == "Viral Pneumonia" || bestClass == "Normal") {
         newlabel.className = "alert alert-success";
     }
     else {
